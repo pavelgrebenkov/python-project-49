@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Module 1 project"
+authors = ["pavelgrebenkov <pavellearnnow@gmail.com>"]
+readme = "README.md"
+packages = [{include = "brain_games"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
