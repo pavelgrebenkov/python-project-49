@@ -1,7 +1,13 @@
 # This file contains all those files that will not make it to the repository.
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-
+# Copied this from https://github.com/hexlet-boilerplates/python-package/blob/main/.gitignore
+*.egg-info
+__pycache__
+dist/
+*.pyc
 .venv/
+.coverage
+coverage.xml
+.pytest_cache/
+.nano
 
