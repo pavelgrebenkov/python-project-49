@@ -15,6 +15,8 @@ build:
 publish:
 	poetry publish --dry-run # Used for debugging without publishing to PyPI.
 
+lint:
+	poetry run flake8 brain_games # Launches Flake 8
 
 package-install:
 	python3 -m pip install --user dist/*.whl # Installs the program by way of the operating system.
@@ -24,4 +26,5 @@ package-reinstall:
 
 package-uninstall:
 	python3 -m pip uninstall hexlet-code # Un-installs the program by way of the operating sytem.
+
 
