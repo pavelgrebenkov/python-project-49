@@ -7,6 +7,8 @@ install:
 brain-games:
 	poetry run brain-games # Launches the Brain Games program.
 
+brain-even:
+	poetry run brain-even # Launches the Brain Even program
 
 build:
 	poetry build # Puts together the package.
