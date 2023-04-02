@@ -1,7 +1,7 @@
-# This is an executable file which cantains several useful commands.
+# This is an executable file which cantains several useful commands for quick and easy use.
 
 install:
-	poetry install # This command is useful at the first instance of repository cloning (or after deleting the dependencies).
+	poetry install # This command is useful at the first instance of cloning a repository (or after deleting dependencies).
 
 
 brain-games:
@@ -11,22 +11,22 @@ brain-even:
 	poetry run brain-even # Launches the Brain Even program
 
 build:
-	poetry build # Puts together the package.
+	poetry build # Assembles packages.
 
 
 publish:
-	poetry publish --dry-run # Used for debugging without publishing to PyPI.
+	poetry publish --dry-run # Used for checking and  debugging without publishing to PyPI.
 
 lint:
 	poetry run flake8 brain_games # Launches Flake 8
 
 package-install:
-	python3 -m pip install --user dist/*.whl # Installs the program by way of the operating system.
+	python3 -m pip install --user dist/*.whl # Installs programs from the operating system.
 
 package-reinstall:
-	python3 -m pip install --user --force-reinstall dist/*.whl # Re-installs the program by way of the operating system.
+	python3 -m pip install --user --force-reinstall dist/*.whl # Re-installs programs from the operating system.
 
 package-uninstall:
-	python3 -m pip uninstall hexlet-code # Un-installs the program by way of the operating sytem.
+	python3 -m pip uninstall hexlet-code # Uninstalls the Hexlet Code project from the operating sytem.
 
 
