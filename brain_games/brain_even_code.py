@@ -49,15 +49,15 @@ def comp_decision():
             print("Correct!")
 
         elif (num_odd is True and num_even != yes):
-            print(f"Yes is wrong answer ;(. Let's try again {name}!")
+            print(f"Yes is wrong answer ;(. Let's try again, {name}!")
             return comp_decision()
 
         elif (num_even is True and num_odd != no):
-            print(f"No is wrong answer ;(. Let's try again {name}!")
+            print(f"No is wrong answer ;(. Let's try again, {name}!")
             return comp_decision()
 
         else:
-            print(f"Your answer isn't clear. ;(. Let's try again {name}!")
+            print(f"Your answer isn't clear. ;(. Let's try again, {name}!")
             return comp_decision()
 
     print(f"Congratuations, {name}!")
