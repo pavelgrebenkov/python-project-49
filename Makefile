@@ -10,6 +10,9 @@ brain-games:
 brain-even:
 	poetry run brain-even # Launches the Brain Even program
 
+brain-calc:
+	poetry run brain-calc # Launches the Brain Calculator program
+
 build:
 	poetry build # Assembles packages.
 
