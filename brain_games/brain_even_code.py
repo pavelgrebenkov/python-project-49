@@ -12,9 +12,9 @@ print(instruction)
 # This block of code generates random numbers.
 
 
-def comp_random_number():
-    random_num = random.randint(1, 100)
-    return random_num
+def comp_rand_num():
+    rand_num = random.randint(1, 100)
+    return rand_num
 
 #################################################
 # This block of code receives the user’s responses.
@@ -32,14 +32,14 @@ def comp_decision():
     attempts_correct = 0
 
     while attempts_correct < 3:
-        random_num = comp_random_number()
-        question = f'Question: {random_num}'
+        rand_num = comp_rand_num()
+        question = f'Question: {rand_num}'
         print(question)
 
         player_response = user_response()
 
-        num_even = (random_num % 2 == 0)
-        num_odd = (random_num % 2 != 0)
+        num_even = (rand_num % 2 == 0)
+        num_odd = (rand_num % 2 != 0)
 
         yes = bool(player_response.lower() == "yes")
         no = bool(player_response.lower() == "no")
