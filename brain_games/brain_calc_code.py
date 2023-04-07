@@ -41,7 +41,13 @@ def comp_decision():
         print(question)
 
         math_expression_result = eval(random_math_expression)
-        player_response = int(user_response())
+
+        try:
+            player_response = int(user_response())
+
+        except ValueError:
+            print(f"Your answer isn't clear. ;(. Let's try again {name}!")
+            return comp_decision()
 
         if math_expression_result == player_response:
             attempts_correct += 1
