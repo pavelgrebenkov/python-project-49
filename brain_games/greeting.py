@@ -1,6 +1,6 @@
 #################################################
 # This block of code welcomes the user and asks for his/her name.
-# This code is the same for all brain games.
+# This code is the same for all the brain games.
 
 import prompt
 
