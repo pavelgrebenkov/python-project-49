@@ -1,6 +1,5 @@
 import random
-import prompt
-from brain_games.greeting import name
+from brain_games.all_games_code import comp_rand_num, user_response, name
 
 #################################################
 # This block of code instructs the user on how to play the game.
@@ -8,22 +7,6 @@ from brain_games.greeting import name
 
 instruction = 'What is the result of the expression?'
 print(instruction)
-
-#################################################
-# This block of code generates random numbers.
-
-
-def comp_rand_num():
-    rand_num = random.randint(1, 10)
-    return rand_num
-
-#################################################
-# This block of code receives the user’s responses.
-
-
-def user_response():
-    answer = prompt.string('Your answer: ')
-    return answer
 
 #################################################
 # This block of code makes decisions about the user’s responses.
