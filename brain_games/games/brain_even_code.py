@@ -1,4 +1,4 @@
-from brain_games.all_games_code import comp_rand_num, user_response, name
+from brain_games.games.all_games_code import comp_rand_num, user_response, name
 
 #################################################
 # This block of code instructs the user on how to play the game.
