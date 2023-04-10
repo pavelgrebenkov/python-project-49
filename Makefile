@@ -13,6 +13,9 @@ brain-even:
 brain-calc:
 	poetry run brain-calc # Launches the Brain Calculator program
 
+brain-gcd:
+	poetry run brain-gcd #Launches the Greatest Common Denominator program
+
 build:
 	poetry build # Assembles packages.
 
