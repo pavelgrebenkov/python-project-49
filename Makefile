@@ -3,7 +3,6 @@
 install:
 	poetry install # This command is useful at the first instance of cloning a repository (or after deleting dependencies).
 
-
 brain-games:
 	poetry run brain-games # Launches the Brain Games program.
 
@@ -14,11 +13,13 @@ brain-calc:
 	poetry run brain-calc # Launches the Brain Calculator program
 
 brain-gcd:
-	poetry run brain-gcd #Launches the Greatest Common Denominator program
+	poetry run brain-gcd #Launches the Brain Greatest Common Denominator program
+
+brain-progression:
+	poetry run brain-progression # Launches the Brain Progression program
 
 build:
 	poetry build # Assembles packages.
-
 
 publish:
 	poetry publish --dry-run # Used for checking and  debugging without publishing to PyPI.
