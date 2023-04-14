@@ -12,3 +12,6 @@ https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0
 
 ### A video demonstration of how to launch and play Brain Greatest Common Denominator - a 'find-the-greatest-common-divisor-of-two-numbers' game.
 https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq
+
+### A video demonstration of how to launch and play Brain Progression - a math progression completion game.
+https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs 
