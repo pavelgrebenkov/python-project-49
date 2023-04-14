@@ -22,7 +22,7 @@ welcome_user()
 
 
 def comp_rand_num():
-    rand_num = random.randint(1, 10)
+    rand_num = random.randint(5, 10)
     return rand_num
 
 #################################################
