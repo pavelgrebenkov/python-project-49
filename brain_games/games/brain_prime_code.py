@@ -51,7 +51,7 @@ def comp_decision():
             return comp_decision()
 
         else:
-            print (f"Your answer isn't clear. ;(. Let's try again, {name}!")
+            print(f"Your answer isn't clear. ;(. Let's try again, {name}!")
             return comp_decision()
 
     print(f"Congratuations, {name}!")
