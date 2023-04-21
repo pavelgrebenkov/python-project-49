@@ -18,6 +18,9 @@ brain-gcd:
 brain-progression:
 	poetry run brain-progression # Launches the Brain Progression program
 
+brain-prime:
+	poetry run brain-prime # Launches the Brain Prime program
+
 build:
 	poetry build # Assembles packages.
 
