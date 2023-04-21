@@ -15,3 +15,6 @@ https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq
 
 ### A video demonstration of how to launch and play Brain Progression - a math progression completion game.
 https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs 
+
+### A video demonstration of how to launch and play Brain Prime - a prime number game.
+https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH
