@@ -45,6 +45,5 @@ def comp_decision():
 Correct answer was {rand_num_pair_gcd}.
 Let's try again, {name}!""")
             attempts_correct = 0
-            continue
 
     print(f"Congratuations, {name}!")
