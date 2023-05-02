@@ -42,16 +42,13 @@ def comp_decision():
         elif (prime_num is True and no):
             print(f"No is wrong answer ;(. Let's try again, {name}!")
             attempts_correct = 0
-            continue
 
         elif (prime_num is False and yes):
             print(f"Yes is wrong answer ;(. Let's try again, {name}!")
             attempts_correct = 0
-            continue
 
         else:
             print(f"Your answer isn't clear. ;(. Let's try again, {name}!")
             attempts_correct = 0
-            continue
 
     print(f"Congratuations, {name}!")
