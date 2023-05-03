@@ -18,31 +18,31 @@ def comp_question():
     rand_num_pair = f'{rand_num_1} {rand_num_2}'
     question = f'Question: {rand_num_pair}'
     print(question)
-    rand_num_pair_gcd = math.gcd(rand_num_1, rand_num_2)
-    return rand_num_pair_gcd
+    gcd = math.gcd(rand_num_1, rand_num_2)
+    return gcd
 
 
 def comp_decision():
     attempts_correct = 0
 
     while attempts_correct < 3:
-        rand_num_pair_gcd = comp_question()
+        gcd = comp_question()
 
         try:
-            player_response = int(user_response())
+            ans = int(user_response())
 
         except ValueError:
-            print(f"Your answer isn't clear. ;(. Let's try again {name}!")
+            print(f"""Your answer isn't clear. ;(.
+Let's try again {name}!""")
             attempts_correct = 0
             continue
 
-        if rand_num_pair_gcd == player_response:
+        if gcd == ans:
             attempts_correct += 1
             print("Correct!")
 
         else:
-            print(f"""{player_response} is wrong answer ;(.
-Correct answer was {rand_num_pair_gcd}.
+            print(f"""'{ans}' is wrong answer ;(. Correct answer was '{gcd}'.
 Let's try again, {name}!""")
             attempts_correct = 0
             continue
