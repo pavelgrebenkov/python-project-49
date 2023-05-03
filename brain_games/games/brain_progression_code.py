@@ -19,34 +19,34 @@ def comp_question():
         rand_math_seq.append(rand_num + (i - 1) * rand_num)
     elem = ".."
     rand_index = random.randrange(len(rand_math_seq))
-    correct_answer = rand_math_seq[rand_index]
+    answer = rand_math_seq[rand_index]
     rand_math_seq[rand_index] = elem
     question = f'Question: {str(rand_math_seq)[1 : -1]}'
     print(question)
-    return correct_answer
+    return answer
 
 
 def comp_decision():
     attempts_correct = 0
 
     while attempts_correct < 3:
-        correct_answer = comp_question()
+        answer = comp_question()
 
         try:
-            player_response = int(user_response())
+            ans = int(user_response())
 
         except ValueError:
-            print(f"Your answer isn't clear. ;(. Let's try again {name}!")
+            print(f"""Your answer isn't clear. ;(.
+Let's try again {name}!""")
             attempts_correct = 0
             continue
 
-        if correct_answer == player_response:
+        if answer == ans:
             attempts_correct += 1
             print("Correct!")
 
         else:
-            print(f"""{player_response} is wrong answer ;(.
-Correct answer was {correct_answer}.
+            print(f"""'{ans}' is wrong answer ;(. Correct answer was '{answer}'.
 Let's try again, {name}!""")
             attempts_correct = 0
             continue
