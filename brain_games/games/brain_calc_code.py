@@ -19,31 +19,31 @@ def comp_question():
     rand_math_expr = f'{rand_num} {rand_math_opr} {rand_num}'
     question = f'Question: {rand_math_expr}'
     print(question)
-    math_expr_result = eval(rand_math_expr)
-    return math_expr_result
+    result = eval(rand_math_expr)
+    return result
 
 
 def comp_decision():
     attempts_correct = 0
 
     while attempts_correct < 3:
-        math_expr_result = comp_question()
+        result = comp_question()
 
         try:
-            player_response = int(user_response())
+            ans = int(user_response())
 
         except ValueError:
-            print(f"Your answer isn't clear. ;(. Let's try again {name}!")
+            print(f"""Your answer isn't clear. ;(.
+Let's try again {name}!""")
             attempts_correct = 0
             continue
 
-        if math_expr_result == player_response:
+        if result == ans:
             attempts_correct += 1
             print("Correct!")
 
         else:
-            print(f"""{player_response} is wrong answer ;(.
-Correct answer was {math_expr_result}.
+            print(f"""'{ans}' is wrong answer ;(. Correct answer was '{result}'.
 Let's try again, {name}!""")
             attempts_correct = 0
             continue
