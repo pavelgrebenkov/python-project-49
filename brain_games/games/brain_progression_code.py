@@ -49,5 +49,6 @@ def comp_decision():
 Correct answer was {correct_answer}.
 Let's try again, {name}!""")
             attempts_correct = 0
+            continue
 
     print(f"Congratuations, {name}!")
