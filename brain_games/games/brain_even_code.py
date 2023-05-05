@@ -53,4 +53,4 @@ Let's try again, {name}!""")
             attempts_correct = 0
             continue
 
-    print(f"Congratuations, {name}!")
+    print(f"Congratulations, {name}!")
