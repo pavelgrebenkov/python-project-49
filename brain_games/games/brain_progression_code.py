@@ -21,7 +21,8 @@ def comp_question():
     rand_index = random.randrange(len(rand_math_seq))
     answer = rand_math_seq[rand_index]
     rand_math_seq[rand_index] = elem
-    question = f'Question: {str(rand_math_seq)[1 : -1]}'
+    q_rand_math_seq = ' '.join(str(item) for item in rand_math_seq)
+    question = f'Question: {q_rand_math_seq}'
     print(question)
     return answer
 
