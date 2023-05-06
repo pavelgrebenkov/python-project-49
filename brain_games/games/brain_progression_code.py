@@ -38,8 +38,8 @@ def comp_decision():
         except ValueError:
             print(f"""Your answer isn't clear. ;(.
 Let's try again {name}!""")
-            attempts_correct = 0
-            continue
+            # attempts_correct = 0
+            return
 
         if answer == ans:
             attempts_correct += 1
@@ -48,7 +48,7 @@ Let's try again {name}!""")
         else:
             print(f"""'{ans}' is wrong answer ;(. Correct answer was '{answer}'.
 Let's try again, {name}!""")
-            attempts_correct = 0
-            continue
+            # attempts_correct = 0
+            return
 
     print(f"Congratuations, {name}!")
