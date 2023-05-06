@@ -48,4 +48,4 @@ Let's try again, {name}!""")
             # attempts_correct = 0
             return
 
-    print(f"Congratuations, {name}!")
+    print(f"Congratulations, {name}!")
