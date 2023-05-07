@@ -5,20 +5,20 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
 
 
-# Brain Games is a module, which contains five simple math game        
+# Brain Games is a module, which contains five simple math games:        
 # * Brain even - odd-even number game
 # * Brain calc - basic arithmetic game
 # * Brain gcd - greatest common divisor game
 # * Brain progression - math sequence completion game and
 # * Brain prime - prime number game. 
 
-# This module was written as a requirement for the first academic module of the professional program, Python Develope, offered and delivered by Hexlet, an online programming school in Russia.
+# This module was written as a requirement for the first academic module of the professional program, Python Developer, offered and delivered by Hexlet, an online programming school in Russia.
 
 # The minimal requirements for installing the module is Python version 3.x and Poetry. 
 
 # To install the module use the following command: make package-install
 
-# To know How to launch and play the games, watch the video demonstrations. The links are below.  
+# To find out how to launch and play the games, watch the video demonstrations. The links are below.  
 
 
 ### A video demonstration of how to launch and play Brain even.
