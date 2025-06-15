@@ -6,29 +6,28 @@
 
 
 ### This package contains five simple math games
-<p>1. Brain even - odd-even number game</p>
-<p>2. Brain calc - basic arithmetic game</p>
-<p>3. Brain gcd - greatest common divisor game</p>
-<p>4. Brain progression - math sequence completion game and</p>
-<p>5. Brain prime - prime number game</p>
+<ol>
+  <li>Brain even - odd-even number game</li>
+  <li>Brain calc - basic arithmetic game</li>
+  <li>Brain gcd - greatest common divisor game</li>
+  <li>Brain progression - math sequence completion game/li>
+  <li>Brain prime - prime number game</li>
+</ol>
 
 ### Description
 <p>This module was written as a requirement for the first academic module of the professional program, Python Developer, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives
 of the project empahsises the following skills and knowledge areas:<p>
 <ul>
-  
-  <li>Setting up the development environment</li>
-  <li></li>
-
-◦ Building the correct file structure of packages
-◦ Dependency management
-◦ Independent selection of the necessary libraries
-◦ Automatic code checking
-◦ Correct organization of the code architecture and refactoring
-◦ Identifying and correcting errors in the code
-◦ Creating a repository on GitHub and working with Git
-◦ Preparing the application for publication
-◦ Brief description and documentation of the application
+  <li>Development environment set up</li>
+  <li>Building correct package file structure</li>
+  <li>Dependency management</li>
+  <li>Selection of necessary libraries</li>
+  <li>Utilization of linters</li>
+  <li>Organizatin code architecture and refactoring</li>
+  <li>Debugging and code optimization/li>
+  <li>Creating a repository on GitHub and working with Git</li>
+  <li>Preparing the application for publication</li>
+  <li>Brief description and documentation of the application</li>
 </ul>
 
 # The minimal requirements for installing the module is Python version 3.x and Poetry. 
