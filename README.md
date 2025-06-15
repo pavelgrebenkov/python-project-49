@@ -5,8 +5,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
 
 
-# Brain Games is a module, which contains five simple math games:        
-# * Brain even - odd-even number game
+## Brain Games contains five simple math games:        
+### * Brain even - odd-even number game
 # * Brain calc - basic arithmetic game
 # * Brain gcd - greatest common divisor game
 # * Brain progression - math sequence completion game and
