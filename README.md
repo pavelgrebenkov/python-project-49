@@ -15,7 +15,7 @@
 </ol>
 
 ### Description
-<p>This module was written as a requirement for the first academic module of the professional program, <strong>Python Developer</strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
+<p>This package was written as a requirement for the first academic module of the professional program, <strong>Python Developer</strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
 <ul>
   <li>Development environment set up</li>
   <li>Building correct package file structure</li>
@@ -30,10 +30,10 @@
 </ul>
 
 ### Requirements
-<p>Minimal requirements for installing the module is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
+<p>Minimal requirements for installing the package is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
 ### Installation
-<p>To install the module type this command in the terminal: make package-install</p>
+<p>To install the package type this command in the terminal: make package-install</p>
 
 ### Video demonstrations
 <p>To see how to launch and play the games, watch the video demonstrations below.</p>
@@ -43,5 +43,4 @@
   <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain gcd</a></li>
   <li><a href="https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs" target="_blank">Brain progression</a></li>
   <li><a href="https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH" target="_blank">Brain prime</a></li>
-  <li>[go](http://stackoverflow.com){:target="_blank"}</li>
 </ul>
