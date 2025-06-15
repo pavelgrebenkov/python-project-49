@@ -23,13 +23,14 @@
   <li>Selection of necessary libraries</li>
   <li>Utilization of linters</li>
   <li>Organizing code architecture and refactoring</li>
-  <li>Debugging/li>
+  <li>Debugging</li>
   <li>Creating a repository on GitHub and working with Git</li>
   <li>Preparing the application for publication</li>
   <li>Brief description and documentation of the application</li>
 </ul>
 
-# The minimal requirements for installing the module is Python version 3.x and Poetry. 
+### Requirements
+<p>Minimal requirements for installing the module is <a href="https://www.python.org/downloads/">Python 3.x</a>a and <a href="https://python-poetry.org/docs/">Poetry</a>a.</p>
 
 # To install the module use the following command: make package-install
 
