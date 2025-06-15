@@ -6,9 +6,7 @@
 
 
 ## Brain Games contains five simple math games:
-<ul>
-### * <p>Brain even - odd-even number game</p>
-</ul>
+* <p>Brain even - odd-even number game</p>
 ### * Brain calc - basic arithmetic game
 ### * Brain gcd - greatest common divisor game
 ### * Brain progression - math sequence completion game and
