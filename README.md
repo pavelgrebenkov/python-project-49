@@ -5,12 +5,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
 
 
-## Brain Games contains five simple math games:
-* <p>Brain even - odd-even number game</p>
-### * Brain calc - basic arithmetic game
-### * Brain gcd - greatest common divisor game
-### * Brain progression - math sequence completion game and
-### * Brain prime - prime number game. 
+## This package contains five simple math games:
+<p>1. Brain even - odd-even number game</p>
+<p>2. Brain calc - basic arithmetic game</p>
+<p>3. Brain gcd - greatest common divisor game</p>
+<p>4. Brain progression - math sequence completion game and</p>
+<p>5. Brain prime - prime number game</p>
 
 # This module was written as a requirement for the first academic module of the professional program, Python Developer, offered and delivered by Hexlet, an online programming school in Russia.
 
