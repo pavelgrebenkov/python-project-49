@@ -33,9 +33,9 @@
 <p>Minimal requirements for installing the package is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
 ### Installation
-<pre>To install the package type this command in the terminal:
+<pre>To install the package type this command into the terminal:
 python3 -m pip install --user git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</pre>
-<p>Also, you can install the package directly from the <a href="https://github.com/pavelgrebenkov/python-project-49">repository</a> </p>
+<p>Also, you can install the package directly from the <a href="https://github.com/pavelgrebenkov/python-project-49">repository.</a> </p>
 
 ### Video demonstrations
 <p>To see how to launch and play the games, watch the video demonstrations below.</p>
