@@ -5,14 +5,31 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
 
 
-## This package contains five simple math games:
+### This package contains five simple math games
 <p>1. Brain even - odd-even number game</p>
 <p>2. Brain calc - basic arithmetic game</p>
 <p>3. Brain gcd - greatest common divisor game</p>
 <p>4. Brain progression - math sequence completion game and</p>
 <p>5. Brain prime - prime number game</p>
 
-# This module was written as a requirement for the first academic module of the professional program, Python Developer, offered and delivered by Hexlet, an online programming school in Russia.
+### Description
+<p>This module was written as a requirement for the first academic module of the professional program, Python Developer, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives
+of the project empahsises the following skills and knowledge areas:<p>
+<ul>
+  
+  <li>Setting up the development environment</li>
+  <li></li>
+
+◦ Building the correct file structure of packages
+◦ Dependency management
+◦ Independent selection of the necessary libraries
+◦ Automatic code checking
+◦ Correct organization of the code architecture and refactoring
+◦ Identifying and correcting errors in the code
+◦ Creating a repository on GitHub and working with Git
+◦ Preparing the application for publication
+◦ Brief description and documentation of the application
+</ul>
 
 # The minimal requirements for installing the module is Python version 3.x and Poetry. 
 
