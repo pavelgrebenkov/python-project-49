@@ -39,11 +39,11 @@
 
 ### Commands for launching the games
 <ul>
-  <li><em>brain-even</em> => the odd-even number game</li>
-  <li><em>brain-calc</em>Brain calc</li>
-  <li><am>brain-gcd</am>Brain gcd</li>
-  <li><am>brain-progression</am>Brain progression<</li>
-  <li><am>brain-prime</am>Brain prime</li>
+  <li><em>brain-even</em> => odd or even?</li>
+  <li><em>brain-calc</em> => basic arithmetic</li>
+  <li><am>brain-gcd</am> => greatest common devisor</li>
+  <li><am>brain-progression</am> => math sequence completion<</li>
+  <li><am>brain-prime</am> => prime number or not?</li>
 </ul>
 
 ### Video demonstrations
