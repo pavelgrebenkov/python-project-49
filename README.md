@@ -30,7 +30,7 @@
 </ul>
 
 ### Requirements
-<p>Minimal requirements for installing the module is <a href="https://www.python.org/downloads/">Python 3.x</a>a and <a href="https://python-poetry.org/docs/">Poetry</a>a.</p>
+<p>Minimal requirements for installing the module is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
 # To install the module use the following command: make package-install
 
