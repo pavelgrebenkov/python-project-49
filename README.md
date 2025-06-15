@@ -35,7 +35,7 @@
 ### Installation
 <p>To install the module type this command in the terminal: make package-install</p>
 
-### Vidoe demonstrations
+### Video demonstrations
 <p>To see how to launch and play the games, watch the video demonstrations below.</p>
 <ul>
   <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain even</a></li>
@@ -43,4 +43,5 @@
   <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain gcd</a></li>
   <li><a href="https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs" target="_blank">Brain progression</a></li>
   <li><a href="https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH" target="_blank">Brain prime</a></li>
+  <li>[go](http://stackoverflow.com){:target="_blank"}</li>
 </ul>
