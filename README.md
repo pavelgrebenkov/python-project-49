@@ -15,16 +15,15 @@
 </ol>
 
 ### Description
-<p>This module was written as a requirement for the first academic module of the professional program, Python Developer, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives
-of the project empahsises the following skills and knowledge areas:<p>
+<p>This module was written as a requirement for the first academic module of the professional program, <strong>Python Developer<strong></strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
 <ul>
   <li>Development environment set up</li>
   <li>Building correct package file structure</li>
   <li>Dependency management</li>
   <li>Selection of necessary libraries</li>
   <li>Utilization of linters</li>
-  <li>Organizatin code architecture and refactoring</li>
-  <li>Debugging and code optimization/li>
+  <li>Organizing code architecture and refactoring</li>
+  <li>Debugging/li>
   <li>Creating a repository on GitHub and working with Git</li>
   <li>Preparing the application for publication</li>
   <li>Brief description and documentation of the application</li>
