@@ -37,6 +37,15 @@
 <p><em>python3 -m pip install --user git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
 <p>Also, you can install the package directly from the <a href="https://github.com/pavelgrebenkov/python-project-49">repository.</a> </p>
 
+### Commands for launching the games
+<ul>
+  <li><span>brain-calc</span> => Brain even</li>
+  <li>Brain calc</li>
+  <li>Brain gcd</li>
+  <li>Brain progression<</li>
+  <li>Brain prime<</li>
+</ul>
+
 ### Video demonstrations
 <p>To see how to launch and play the games, watch the video demonstrations below.</p>
 <ul>
