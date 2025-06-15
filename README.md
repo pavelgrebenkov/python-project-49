@@ -15,7 +15,7 @@
 </ol>
 
 ### Description
-<p>This module was written as a requirement for the first academic module of the professional program, <strong>Python Developer<strong></strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
+<p>This module was written as a requirement for the first academic module of the professional program, <strong>Python Developer</strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
 <ul>
   <li>Development environment set up</li>
   <li>Building correct package file structure</li>
