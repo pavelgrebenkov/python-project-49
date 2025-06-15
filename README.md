@@ -34,7 +34,7 @@
 
 ### Installation
 <p>To install the package type this command in the terminal:</p>
-> python3 -m pip install --user git+https://github.com/pavelgrebenkov/python-project-49.git
+python3 -m pip install --user git+https://github.com/pavelgrebenkov/python-project-49.git
 <p>Also, you can install the package directly from the <a href="https://github.com/pavelgrebenkov/python-project-49">repository</a> </p>
 
 ### Video demonstrations
