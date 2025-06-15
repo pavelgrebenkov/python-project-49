@@ -35,9 +35,8 @@
 ### Installation
 <p>To install the module type this command in the terminal: make package-install</p>
 
-# To find out how to launch and play the games, watch the video demonstrations. The links are below.  
-
 ### Vidoe demonstrations
+<p>To see how to launch and play the games, watch the video demonstrations below.</p>
 <ul>
   <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain even</a></li>
   <li><a href="https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0" target="_blank">Brain calc</a></li>
