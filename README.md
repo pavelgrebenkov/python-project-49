@@ -32,7 +32,8 @@
 ### Requirements
 <p>Minimal requirements for installing the module is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
-# To install the module use the following command: make package-install
+### Installation
+<p>To install the module type this command in the terminal: make package-install</p>
 
 # To find out how to launch and play the games, watch the video demonstrations. The links are below.  
 
