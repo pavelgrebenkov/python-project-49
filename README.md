@@ -10,7 +10,7 @@
   <li>Brain even - odd-even number game</li>
   <li>Brain calc - basic arithmetic game</li>
   <li>Brain gcd - greatest common divisor game</li>
-  <li>Brain progression - math sequence completion game/li>
+  <li>Brain progression - math sequence completion game</li>
   <li>Brain prime - prime number game</li>
 </ol>
 
