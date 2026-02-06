@@ -1,4 +1,4 @@
-# This is an executable file which cantains several useful commands for quick and easy use.
+# This is an executable file which contains several useful commands for quick and easy use.
 
 install:
 	poetry install # This command is useful at the first instance of cloning a repository (or after deleting dependencies).
