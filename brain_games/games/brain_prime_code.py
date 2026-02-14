@@ -1,15 +1,4 @@
-from brain_games.games.all_games_code import comp_rand_num, user_response, name
-
-#################################################
-# This block of code instructs the user on how to play the game.
-
-
-instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-print(instruction)
-
-
-##################################################
-# This block of code makes decisions about the user’s responses.
+from brain_games.games.all_games_code import comp_rand_num, user_response
 
 
 def comp_question():
@@ -24,7 +13,11 @@ def comp_question():
         return True
 
 
-def comp_decision():
+def comp_decision(name):
+    instruction = """Answer "yes" if given number is prime.
+                    Otherwise answer "no"."""
+    print(instruction)
+
     attempts_correct = 0
 
     while attempts_correct < 3:
@@ -40,19 +33,19 @@ def comp_decision():
             print("Correct!")
 
         elif (prime_num is True and no):
-            print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
+            print(f"""'no' is wrong answer. Correct answer was 'yes'.
 Let's try again, {name}!""")
             # attempts_correct = 0
             return
 
         elif (prime_num is False and yes):
-            print(f"""'yes' is wrong answer ;(. Correct answer was 'no'.
+            print(f"""'yes' is wrong answer. Correct answer was 'no'.
 Let's try again, {name}!""")
             # attempts_correct = 0
             return
 
         else:
-            print(f"""Your answer isn't clear. ;(.
+            print(f"""Your answer isn't clear.
 Let's try again, {name}!""")
             # attempts_correct = 0
             return
