@@ -1,15 +1,5 @@
 import random
-from brain_games.games.all_games_code import comp_rand_num, user_response, name
-
-#################################################
-# This block of code instructs the user on how to play the game.
-
-
-instruction = 'What is the result of the expression?'
-print(instruction)
-
-#################################################
-# This block of code makes decisions about the user’s responses.
+from brain_games.games.all_games_code import comp_rand_num, user_response
 
 
 def comp_question():
@@ -23,7 +13,10 @@ def comp_question():
     return result
 
 
-def comp_decision():
+def comp_decision(name):
+    instruction = 'What is the result of the expression?'
+    print(instruction)
+
     attempts_correct = 0
 
     while attempts_correct < 3:
@@ -33,7 +26,7 @@ def comp_decision():
             ans = int(user_response())
 
         except ValueError:
-            print(f"""Your answer isn't clear. ;(.
+            print(f"""Your answer isn't clear.
 Let's try again {name}!""")
             # attempts_correct = 0
             return
@@ -43,7 +36,7 @@ Let's try again {name}!""")
             print("Correct!")
 
         else:
-            print(f"""'{ans}' is wrong answer ;(. Correct answer was '{result}'.
+            print(f"""'{ans}' is wrong answer. Correct answer was '{result}'.
 Let's try again, {name}!""")
             # attempts_correct = 0
             return
