@@ -14,8 +14,7 @@ def comp_question():
 
 
 def comp_decision(name):
-    instruction = """Answer "yes" if given number is prime.
-                    Otherwise answer "no"."""
+    instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     print(instruction)
 
     attempts_correct = 0
