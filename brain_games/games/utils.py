@@ -20,7 +20,8 @@ def is_valid_answer(answer, answer_type):
 def normalize_answer(answer, answer_type):
     """Convert answer to standard format for comparison."""
     if answer_type == 'numeric':
-        return str(int(answer))  # Convert to int then back to string to normalize
+        # Convert to int then back to string to normalize
+        return str(int(answer))
     elif answer_type == 'yesno':
         return answer.lower()
     return answer
