@@ -1,5 +1,9 @@
 # engine.py
-from brain_games.games.utils import is_valid_answer, normalize_answer, get_user_answer
+from brain_games.games.utils import (
+    is_valid_answer,
+    normalize_answer,
+    get_user_answer
+)
 
 
 ROUNDS_TO_WIN = 3
@@ -28,7 +32,10 @@ def run_game(game_module, user_name):
             correct_answers += 1
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{user_answer}' is wrong answer. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {user_name}!")
             return
 
