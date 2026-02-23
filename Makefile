@@ -1,42 +1,42 @@
-# This is an executable file which contains several useful commands for quick and easy use.
+.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build publish lint package-install package-reinstall package-uninstall
 
 install:
-	poetry install # This command is useful at the first instance of cloning a repository (or after deleting dependencies).
+	poetry install
 
 brain-games:
-	poetry run brain-games # Launches the Brain Games program.
+	poetry run brain-games
 
 brain-even:
-	poetry run brain-even # Launches the Brain Even program
+	poetry run brain-even
 
 brain-calc:
-	poetry run brain-calc # Launches the Brain Calculator program
+	poetry run brain-calc
 
 brain-gcd:
-	poetry run brain-gcd #Launches the Brain Greatest Common Denominator program
+	poetry run brain-gcd
 
 brain-progression:
-	poetry run brain-progression # Launches the Brain Progression program
+	poetry run brain-progression
 
 brain-prime:
-	poetry run brain-prime # Launches the Brain Prime program
+	poetry run brain-prime
 
 build:
-	poetry build # Assembles packages.
+	poetry build
 
 publish:
-	poetry publish --dry-run # Used for checking and  debugging without publishing to PyPI.
+	poetry publish --dry-run
 
 lint:
-	poetry run flake8 brain_games # Launches Flake 8
+	poetry run flake8 brain_games
 
+# Installation commands for system-wide testing
+# Use virtual environment instead for normal development
 package-install:
-	python3 -m pip install --user dist/*.whl # Installs programs from the operating system.
+	python3 -m pip install dist/*.whl
 
 package-reinstall:
-	python3 -m pip install --user --force-reinstall dist/*.whl # Re-installs programs from the operating system.
+	python3 -m pip install --force-reinstall dist/*.whl
 
 package-uninstall:
-	python3 -m pip uninstall hexlet-code # Uninstalls the Hexlet Code project from the operating sytem.
-
-
+	python3 -m pip uninstall hexlet-code -y
