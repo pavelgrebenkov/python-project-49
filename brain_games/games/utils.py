@@ -7,6 +7,9 @@ import random
 def is_valid_answer(answer, answer_type):
     """Check if answer is valid for the game type."""
     if answer_type == 'numeric':
+        # Check for leading zeros
+        if answer.startswith('0') and len(answer) > 1:
+            return False
         try:
             int(answer)
             return True
@@ -14,15 +17,13 @@ def is_valid_answer(answer, answer_type):
             return False
     elif answer_type == 'yesno':
         return answer.lower() in ['yes', 'no']
-    return True  # Default case
+    return True
 
 
 def normalize_answer(answer, answer_type):
     """Convert answer to standard format for comparison."""
-    if answer_type == 'numeric':
-        # Convert to int then back to string to normalize
-        return str(int(answer))
-    elif answer_type == 'yesno':
+    if answer_type == 'yesno':
+        # Convert to lower case to normalize
         return answer.lower()
     return answer
 
