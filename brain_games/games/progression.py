@@ -1,4 +1,10 @@
 # progression.py
+"""Aithmetic progression game module.
+
+In this game, the user is shown a random sequence of numbers
+and must provide the missing number according to the rule of
+progression.
+"""
 import random
 from brain_games.games.utils import generate_number
 
@@ -7,7 +13,12 @@ INSTRUCTION = 'What number is missing in the progression?'
 
 
 def generate_round():
-    """Generate a question and its correct answer."""
+    """Generate a question and its correct answer for the progression game.
+
+    Returns:
+        tuple: A pair containing (question_string, correct_answer_string)
+               e.g., ("5 10 .. 20 25", "15")
+    """
     math_seq = []
     number = generate_number()
     for i in range(1, number + 1):

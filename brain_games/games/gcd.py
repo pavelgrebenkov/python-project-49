@@ -1,4 +1,11 @@
 # gcd.py
+"""Greates common divisor (gcd) game module.
+
+In this game, the user is shown a random pair of numbers
+and must provide their gcd.
+"""
+
+
 import math
 from brain_games.games.utils import generate_number
 
@@ -7,7 +14,12 @@ INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_round():
-    """Generate a question and its correct answer."""
+    """Generate a question and its correct answer for the gcd game.
+
+    Returns:
+        tuple: A pair containing (question_string, correct_answer_string)
+               e.g., ("5 10", "5")
+    """
     num1 = generate_number()
     num2 = generate_number()
     question = f"{num1} {num2}"
