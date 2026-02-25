@@ -1,5 +1,5 @@
 # progression.py
-"""Aithmetic progression game module.
+"""Arithmetic progression game module.
 
 In this game, the user is shown a random sequence of numbers
 and must provide the missing number according to the rule of
