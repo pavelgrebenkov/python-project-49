@@ -1,5 +1,5 @@
 # gcd.py
-"""Greates common divisor (gcd) game module.
+"""Greatest common divisor (gcd) game module.
 
 In this game, the user is shown a random pair of numbers
 and must provide their gcd.
