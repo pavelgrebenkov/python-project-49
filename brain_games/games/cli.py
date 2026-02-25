@@ -1,4 +1,11 @@
 # cli.py
+"""
+- This is the user-interface module that launches the games.
+- Its main purpose is to welcome the user and ask for their name.
+- It is imported into every script of each game.
+"""
+
+
 import prompt
 
 
