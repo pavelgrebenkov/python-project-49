@@ -1,13 +1,17 @@
 # utils.py
-"""The utility module provides helper functions for the game engine and game modules.
+"""The utility module provides helper functions for the game engine and game
+    modules.
 
 Functions:
-- 'is_valid_answer': checks if a user answer is valid for the game type - numeric or yesno.
-- 'normalize_answer': brings all answers for the 'yesno' game types to lower case.
+- 'is_valid_answer': checks if a user answer is valid for the game type -
+numeric or yesno.
+- 'normalize_answer': brings all answers for the 'yesno' game types to lower
+case.
 - 'get_user_answer': receives user answer inputs.
 - 'generate_number': generates random numbers in the range of five to ten.
 
-NOTE: The engine imports the first three functions; the game modules import the last function.
+NOTE: The engine imports the first three functions; the game modules import
+the last function.
 """
 
 
@@ -97,8 +101,10 @@ def generate_number(min_val=5, max_val=10):
     """Generate a random number between min_val and max_val, inclusive.
 
     Args:
-        min_val (int, optional): The minimum possible value for the generated number.
-        max_val (int, optional): The maximum possible value for the generated number.
+        min_val (int, optional): The minimum possible value for the generated
+        number.
+        max_val (int, optional): The maximum possible value for the generated
+        number.
 
     Returns:
         int: A random integer between min_val and max_val.
