@@ -40,8 +40,7 @@ def is_prime(number):
 
 
 def generate_round():
-    """Generate a question and its correct answer
-        for the prime number game.
+    """Generate a question and its correct answer for the prime number game.
 
 
         Returns:
