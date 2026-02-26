@@ -19,13 +19,20 @@ def generate_round():
         tuple: A pair containing (question_string, correct_answer_string)
                e.g., ("5 10 .. 20 25", "15")
     """
+    # Each variable gets its own independent random value
+    start = generate_number(1, 30)   # First number in sequence
+    step = generate_number(2, 8)     # Difference between numbers
+    length = generate_number(5, 10)  # How many numbers in sequence
+
+    # Generate the arithmetic progression
     math_seq = []
-    number = generate_number()
-    for i in range(1, number + 1):
-        math_seq.append(number + (i - 1) * number)
+    for i in range(1, length + 1):
+        math_seq.append(start + i * step)
+
     index = random.randrange(len(math_seq))
     # Return as string for comparison
     correct_answer = str(math_seq[index])
+    # Hide a random element
     math_seq[index] = ".."
     question = f"{' '.join(str(item) for item in math_seq)}"
     return (question, correct_answer)
