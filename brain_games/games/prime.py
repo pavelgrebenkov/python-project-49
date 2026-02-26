@@ -31,7 +31,9 @@ def is_prime(number):
     if number < 2:
         # 0 and 1 are not prime
         return False
-    for i in range(2, number):
+    # Only check up to square root
+    stop = int(number ** 0.5) + 1
+    for i in range(2, stop):
         if number % i == 0:
             # Found a factor, not prime
             return False
