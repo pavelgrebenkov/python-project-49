@@ -1,42 +1,56 @@
 .PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build publish lint package-install package-reinstall package-uninstall
 
 install:
-	poetry install
+	uv sync
 
 brain-games:
-	poetry run brain-games
+	uv run brain-games
 
 brain-even:
-	poetry run brain-even
+	uv run brain-even
 
 brain-calc:
-	poetry run brain-calc
+	uv run brain-calc
 
 brain-gcd:
-	poetry run brain-gcd
+	uv run brain-gcd
 
 brain-progression:
-	poetry run brain-progression
+	uv run brain-progression
 
 brain-prime:
-	poetry run brain-prime
+	uv run brain-prime
 
 build:
-	poetry build
+	uv build
 
 publish:
-	poetry publish --dry-run
+	uv publish --dry-run
 
 lint:
-	poetry run flake8 brain_games
+	uv run ruff check brain_games
 
 # Installation commands for system-wide testing
-# Use virtual environment instead for normal development
+# Make sure you're working in an activated virtual environment
 package-install:
-	python3 -m pip install dist/*.whl
+	uv pip install dist/*.whl
 
 package-reinstall:
-	python3 -m pip install --force-reinstall dist/*.whl
+	uv pip install --force-reinstall dist/*.whl
 
 package-uninstall:
-	python3 -m pip uninstall hexlet-code -y
+	uv pip uninstall hexlet-code -y
+
+# Clean everything
+package-clean:
+	rm -rf dist/ build/ *.egg-info
+	uv pip uninstall hexlet-code -y 2>/dev/null || true
+
+# Full reinstall from scratch
+package-reinstall-clean: package-clean build
+	uv pip install dist/*.whl
+	@echo "✅ Clean reinstall complete"
+
+# Show what's installed
+package-list:
+	uv pip list
