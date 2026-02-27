@@ -1,8 +1,8 @@
 # brain_progression.py
 # !/usr/bin/env python3
 
-from brain_games.games.cli import welcome_user
 from brain_games.games import progression
+from brain_games.games.cli import welcome_user
 from brain_games.games.engine import run_game
 
 
