@@ -1,17 +1,21 @@
-[tool.poetry]
+[project]
 name = "hexlet-code"
 version = "0.1.0"
 description = "Module 1 project"
-authors = ["Pavel Ggrebenkov <pavellearnnow@gmail.com>"]
-repository = "https://github.com/pavelgrebenkov/python-project-49"
 readme = "README.md"
-packages = [{include = "brain_games"}]
+repository = "https://github.com/pavelgrebenkov/python-project-49"
+authors = [
+    { name = "Pavel Grebenkov", email = "pavellearnnow@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "prompt>=0.4.1"
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-prompt = "^0.4.1"
+[project.optional-dependencies]
+dev = ["ruff>=0.3.0"]
 
-[tool.poetry.scripts]
+[project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
@@ -19,9 +23,9 @@ brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
-[tool.poetry.group.dev.dependencies]
-flake8 = "^6.0.0"
-
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
