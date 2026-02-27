@@ -12,8 +12,10 @@ dependencies = [
     "prompt>=0.4.1"
 ]
 
-[project.optional-dependencies]
-dev = ["ruff>=0.3.0"]
+[dependency-groups]
+dev = [
+    "ruff>=0.15.4",
+]
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
@@ -29,3 +31,4 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
+
