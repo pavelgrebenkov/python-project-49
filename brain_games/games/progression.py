@@ -6,6 +6,7 @@ and must provide the missing number according to the rule of
 progression.
 """
 import random
+
 from brain_games.games.utils import generate_number
 
 ANSWER_TYPE = 'numeric'

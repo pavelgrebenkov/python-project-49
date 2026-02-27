@@ -7,6 +7,7 @@ In this game, the user is shown a random arithmetic expression
 
 
 import random
+
 from brain_games.games.utils import generate_number
 
 ANSWER_TYPE = 'numeric'

@@ -15,8 +15,9 @@ the last function.
 """
 
 
-import prompt
 import random
+
+import prompt
 
 
 def is_valid_answer(answer, answer_type):

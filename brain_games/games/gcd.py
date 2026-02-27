@@ -7,6 +7,7 @@ and must provide their gcd.
 
 
 import math
+
 from brain_games.games.utils import generate_number
 
 ANSWER_TYPE = 'numeric'

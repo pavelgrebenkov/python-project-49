@@ -8,7 +8,6 @@ must determine if it is a prime or not.
 
 from brain_games.games.utils import generate_number
 
-
 ANSWER_TYPE = 'yesno'
 INSTRUCTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 

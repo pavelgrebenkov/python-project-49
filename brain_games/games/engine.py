@@ -17,12 +17,7 @@ handle a wrong answer by ending the game.
 """
 
 
-from brain_games.games.utils import (
-    is_valid_answer,
-    normalize_answer,
-    get_user_answer
-)
-
+from brain_games.games.utils import get_user_answer, is_valid_answer, normalize_answer
 
 ROUNDS_TO_WIN = 3
 
