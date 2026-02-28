@@ -1,4 +1,5 @@
 # engine.py
+# ruff: noqa: E501
 """
 The game module contains the function 'run_game' - the universal
 game-running logic.
