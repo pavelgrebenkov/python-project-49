@@ -2,8 +2,8 @@
 [![Actions Status](https://github.com/pavelgrebenkov/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/pavelgrebenkov/python-project-49/actions)
 [![Github Actions Status](https://github.com/pavelgrebenkov/python-project-49/workflows/Python%20CI/badge.svg)](https://github.com/pavelgrebenkov/python-project-49/actions)
 
-### Code Climate - maintability rating
-[![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
+### Code Climate & SonarQube - maintability rating
+[![Maintainability](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49/maintainability.svg)](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pavelgrebenkov_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=pavelgrebenkov_python-project-49)
 
 
