@@ -6,7 +6,7 @@
 
 ### Note on branching:
 <p>- This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
-<p>- The second branch - <strong>refactor/project-restructure</strong> - was built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
+<p>- The second branch - <strong>refactor/project-restructure</strong> - is built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
 <p>- Except for this difference, the two applications are completely identical</p>
 
 ### This package contains five simple math games:
