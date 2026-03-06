@@ -38,6 +38,10 @@ package-build:
 package-publish:
 	uv publish --dry-run
 
+# Install the package from GitHub
+package-install-github:
+	uv tool install git+https://github.com/pavelgrebenkov/python-project-49.git
+
 package-install:
 	uv tool install dist/*.whl
 	@echo "✅ Package successfully installed"
