@@ -50,5 +50,10 @@ package-uninstall:
 	uv tool uninstall hexlet-code
 	@echo "✅ Package successfully uninstalled"
 
-package-list:
+# Lists packages in the current virtual environment
+package-list-local:
 	uv pip list
+
+# Lists globally installed tools
+package-list-global:
+	uv tool list
