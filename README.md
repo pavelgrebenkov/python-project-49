@@ -49,7 +49,7 @@
   <li><am>brain-progression</am> => complete math sequences</li>
   <li><am>brain-prime</am> => decide if number is prime or not</li>
 </ul>
-<p><strong>NOTE:</strong> All the commands for this application can be found in the <a href="https://github.com/pavelgrebenkov/python-project-49/blob/main/Makefile">Makefile</a> file.</p>
+<p><strong>NOTE:</strong> All the commands for this application can be found in <a href="https://github.com/pavelgrebenkov/python-project-49/blob/main/Makefile">Makefile</a>.</p>
 
 ### Video demonstrations
 <p>To see how to install and uninstall the application and how to launch and play the games, watch the demo videos below.</p>
