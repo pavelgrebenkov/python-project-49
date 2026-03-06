@@ -1,43 +1,47 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/pavelgrebenkov/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/pavelgrebenkov/python-project-49/actions)
 
-### Code Climate - maintability rating
-[![Maintainability](https://api.codeclimate.com/v1/badges/10ae31a2ec2782864c89/maintainability)](https://codeclimate.com/github/pavelgrebenkov/python-project-49/maintainability)
+### Qlty - maintability rating:
+[![Qlty check](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49/maintainability.svg)](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49)
 
+### Note on branching:
+<p>- This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
+<p>- The second branch - <strong>refactor/project-restructure</strong> - was built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
+<p>- Except for this difference, the two applications are completely identical</p>
 
-### This package contains five simple math games
+### This package contains five simple math games:
 <ol>
-  <li>Brain even - odd-even number game</li>
-  <li>Brain calc - basic arithmetic game</li>
-  <li>Brain gcd - greatest common divisor game</li>
-  <li>Brain progression - math sequence completion game</li>
-  <li>Brain prime - prime number game</li>
+  <li>Brain Even - odd-even number game</li>
+  <li>Brain Calc - basic arithmetic game</li>
+  <li>Brain GCD - greatest common divisor game</li>
+  <li>Brain Progression - math sequence completion game</li>
+  <li>Brain Prime - prime number game</li>
 </ol>
 
-### Description
-<p>This package was written as a requirement for the first academic module of the professional program, <strong>Python Developer</strong>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
+### Description:
+<p>This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
 <ul>
-  <li>Development environment set up</li>
+  <li>Software development environment setup</li>
   <li>Building correct package file structure</li>
   <li>Dependency management</li>
   <li>Selection of necessary libraries</li>
-  <li>Utilization of linters</li>
-  <li>Organizing code architecture and refactoring</li>
+  <li>Code quality</li>
+  <li>Code architecture and refactoring</li>
   <li>Debugging</li>
   <li>Creating a repository on GitHub and working with Git</li>
   <li>Preparing the application for publication</li>
   <li>Brief description and documentation of the application</li>
 </ul>
 
-### Requirements
+### Requirements:
 <p>Minimal requirements for installing the package is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
-### Installation
-<p>To install the package type this command into the terminal:</p>
-<p><em>python3 -m pip install --user git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
-<p>Also, you can install the package directly from the <a href="https://github.com/pavelgrebenkov/python-project-49">repository.</a> </p>
+### Installation:
+<p>To install the package type this command in the terminal:</p>
+<p><em>pipx install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
+<p>You can find all the information you need on how to install <em>pipx</em> for either Windows or Linux+macOS <a href="https://realpython.com/ref/tools/pipx/">here</a>.</p>
 
-### Commands for launching the games
+### Commands for playing / testing the games:
 <ul>
   <li><em>brain-even</em> => decide if number is odd or even</li>
   <li><em>brain-calc</em> => perform basic arithmetic</li>
@@ -45,10 +49,12 @@
   <li><am>brain-progression</am> => complete math sequences</li>
   <li><am>brain-prime</am> => decide if number is prime or not</li>
 </ul>
+<p><strong>NOTE:</strong> All the commands for this application can be found in the <a href="https://github.com/pavelgrebenkov/python-project-49/blob/main/Makefile">Makefile</a> file.</p>
 
 ### Video demonstrations
-<p>To see how to launch and play the games, watch the video demonstrations below.</p>
+<p>To see how to install and uninstall the application and how to launch and play the games, watch the demo videos below.</p>
 <ul>
+  <li><a href="" target="_blank">Installation/Uninstallation</a></li>
   <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain even</a></li>
   <li><a href="https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0" target="_blank">Brain calc</a></li>
   <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain gcd</a></li>
