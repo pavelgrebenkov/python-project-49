@@ -1,11 +1,11 @@
-.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build publish lint package-install package-reinstall package-uninstall
+.PHONY: brain-games brain-even brain-calc brain-gcd brain-progression brain-prime install lint package-build package-publish package-install package-reinstall package-uninstall package-list
 
-install:
-	poetry install
-
+# Test => only for testing CLI entry point (displays greeting)
 brain-games:
 	poetry run brain-games
 
+
+# Launch games => for playing/testing
 brain-even:
 	poetry run brain-even
 
@@ -21,22 +21,32 @@ brain-progression:
 brain-prime:
 	poetry run brain-prime
 
-build:
-	poetry build
 
-publish:
-	poetry publish --dry-run
+# Dependencies => environment setup
+install:
+        poetry install
 
+
+# Lint => code quality
 lint:
 	poetry run flake8 brain_games
 
-# Installation commands for system-wide testing
-# Use virtual environment instead for normal development
+
+# Package => building/distributing/installing/uninstalling/listing
+package-build:
+        poetry build
+
+package-publish:
+	poetry publish --dry-run
+
 package-install:
-	python3 -m pip install dist/*.whl
+	pipx install dist/*.whl
 
 package-reinstall:
-	python3 -m pip install --force-reinstall dist/*.whl
+	pipx install --force dist/*.whl
 
 package-uninstall:
-	python3 -m pip uninstall hexlet-code -y
+	pipx uninstall hexlet-code
+
+package-list:
+	pipx list
