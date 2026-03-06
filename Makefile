@@ -39,6 +39,10 @@ package-build:
 package-publish:
 	poetry publish --dry-run
 
+# Install the package from GitHub
+package-install-github:
+	pipx install git+https://github.com/pavelgrebenkov/python-project-49.git
+
 package-install:
 	pipx install dist/*.whl
 	@echo "✅ Package successfully installed"
