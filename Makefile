@@ -1,11 +1,10 @@
-.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build publish lint package-install package-reinstall package-uninstall
+.PHONY: brain-games brain-even brain-calc brain-gcd brain-progression brain-prime install lint package-build package-publish package-install package-reinstall package-uninstall package-list
 
-install:
-	uv sync
-
+# Test => only for testing CLI entry point (displays greeting)
 brain-games:
 	uv run brain-games
 
+# Launch games => for playing/testing
 brain-even:
 	uv run brain-even
 
@@ -21,36 +20,35 @@ brain-progression:
 brain-prime:
 	uv run brain-prime
 
-build:
-	uv build
 
-publish:
-	uv publish --dry-run
+# Dependencies => environment setup
+install:
+	uv sync
 
+
+# Lint => code quality
 lint:
 	uv run ruff check brain_games
 
-# Installation commands for system-wide testing
-# Make sure you're working in an activated virtual environment
+
+# Package => building/distributing/installing/uninstalling/listing
+package-build:
+	uv build
+
+package-publish:
+	uv publish --dry-run
+
 package-install:
-	uv pip install dist/*.whl
+	uv tool install dist/*.whl
+	@echo "✅ Package successfully installed"
 
 package-reinstall:
-	uv pip install --force-reinstall dist/*.whl
+	uv tool install --force dist/*.whl
+	@echo "✅ Package successfully reinstalled"
 
 package-uninstall:
-	uv pip uninstall hexlet-code -y
+	uv tool uninstall hexlet-code
+	@echo "✅ Package successfully uninstalled"
 
-# Clean everything
-package-clean:
-	rm -rf dist/ build/ *.egg-info
-	uv pip uninstall hexlet-code -y 2>/dev/null || true
-
-# Full reinstall from scratch
-package-reinstall-clean: package-clean build
-	uv pip install dist/*.whl
-	@echo "✅ Clean reinstall complete"
-
-# Show what's installed
 package-list:
 	uv pip list
