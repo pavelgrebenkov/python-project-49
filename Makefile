@@ -24,7 +24,7 @@ brain-prime:
 
 # Dependencies => environment setup
 install:
-        poetry install
+	poetry install
 
 
 # Lint => code quality
@@ -34,7 +34,7 @@ lint:
 
 # Package => building/distributing/installing/uninstalling/listing
 package-build:
-        poetry build
+	poetry build
 
 package-publish:
 	poetry publish --dry-run
@@ -48,5 +48,10 @@ package-reinstall:
 package-uninstall:
 	pipx uninstall hexlet-code
 
-package-list:
+# Lists packages in the current virtual environment
+package-list-local:
+	pip list
+
+# Lists globally installed tools
+package-list-global:
 	pipx list
