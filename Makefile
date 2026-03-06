@@ -41,12 +41,15 @@ package-publish:
 
 package-install:
 	pipx install dist/*.whl
+	@echo "✅ Package successfully installed"
 
 package-reinstall:
 	pipx install --force dist/*.whl
+	@echo "✅ Package successfully reinstalled"
 
 package-uninstall:
 	pipx uninstall hexlet-code
+	@echo "✅ Package successfully uninstalled"
 
 # Lists packages in the current virtual environment
 package-list-local:
