@@ -43,9 +43,9 @@ The learning objectives of the project empahsised the following skills and knowl
 
 ### Installation:
 <ul>
-  <p>To install the package type this command in the terminal:</p>
-  <p><em>pipx install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
-  <p>You can find all the information you need on how to install <em>pipx</em> for either Windows or Linux+macOS <a href="https://realpython.com/ref/tools/pipx/">here</a>.</p>
+  <li>To install the package type this command in the terminal:</li>
+  <li><em>pipx install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></li>
+  <li>You can find all the information you need on how to install <em>pipx</em> for either Windows or Linux+macOS <a href="https://realpython.com/ref/tools/pipx/">here</a>.</li>
 </ul>
 
 ### Commands for playing / testing the games:
