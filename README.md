@@ -24,7 +24,7 @@
 <p>
 This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. 
 The learning objectives of the project empahsised the following skills and knowledge areas:
-<p>
+</p>
 <ul>
   <li>Software development environment setup</li>
   <li>Building correct package file structure</li>
@@ -52,9 +52,9 @@ The learning objectives of the project empahsised the following skills and knowl
 <ul>
   <li><em>brain-even</em> => decide if number is odd or even</li>
   <li><em>brain-calc</em> => perform basic arithmetic</li>
-  <li><am>brain-gcd</am> => find greatest common devisor</li>
-  <li><am>brain-progression</am> => complete math sequences</li>
-  <li><am>brain-prime</am> => decide if number is prime or not</li>
+  <li><em>brain-gcd</em> => find greatest common devisor</li>
+  <li><em>brain-progression</em> => complete math sequences</li>
+  <li><em>brain-prime</em> => decide if number is prime or not</li>
 </ul>
 <p><strong>NOTE:</strong> All the commands for this application can be found in <a href="https://github.com/pavelgrebenkov/python-project-49/blob/main/Makefile">Makefile</a>.</p>
 
