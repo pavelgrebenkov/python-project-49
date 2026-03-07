@@ -62,10 +62,10 @@ The learning objectives of the project empahsised the following skills and knowl
 ### Video demonstrations:
 <p>To see how to install and uninstall the application, and how to launch and play the games, watch the demo videos below.</p>
 <ul>
-  <li><a href="" target="_blank">Installation/Uninstallation</a></li>
-  <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain Even</a></li>
-  <li><a href="https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0" target="_blank">Brain Calc</a></li>
-  <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain GCD</a></li>
-  <li><a href="https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs" target="_blank">Brain Progression</a></li>
-  <li><a href="https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH" target="_blank">Brain Prime</a></li>
+  <li><a href="https://asciinema.org/a/iUyUlESsoT4v8OEs" target="_blank">Installation/Uninstallation (with uv)</a></li>
+  <li><a href="https://asciinema.org/a/820012" target="_blank">Brain Even</a></li>
+  <li><a href="https://asciinema.org/a/820011" target="_blank">Brain Calc</a></li>
+  <li><a href="https://asciinema.org/a/820013" target="_blank">Brain GCD</a></li>
+  <li><a href="https://asciinema.org/a/820015" target="_blank">Brain Progression</a></li>
+  <li><a href="https://asciinema.org/a/820014" target="_blank">Brain Prime</a></li>
 </ul>
