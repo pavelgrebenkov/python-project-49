@@ -6,19 +6,19 @@
 
 ### Note on branching:
 <ul>
-  <p>This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
-  <p>The second branch - <strong>refactor/project-restructure</strong> - is built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
-  <p>Except for this difference, the two applications are pretty much identical</p>
-<ul>
+  <li>This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</li>
+  <li>The second branch - <strong>refactor/project-restructure</strong> - is built with <a href=https://docs.astral.sh/uv/">uv</a>.</li>
+  <li>Except for this difference, the two applications are pretty much identical</li>
+</ul>
 
 ### This package contains five simple math games:
-<ol>
+<ul>
   <li>Brain Even - odd-even number game</li>
   <li>Brain Calc - basic arithmetic game</li>
   <li>Brain GCD - greatest common divisor game</li>
   <li>Brain Progression - math sequence completion game</li>
   <li>Brain Prime - prime number game</li>
-</ol>
+</ul>
 
 ### Description:
 <p>
@@ -42,9 +42,11 @@ The learning objectives of the project empahsised the following skills and knowl
 <p>Minimal requirements for installing the package is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
 
 ### Installation:
-<p>To install the package type this command in the terminal:</p>
-<p><em>pipx install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
-<p>You can find all the information you need on how to install <em>pipx</em> for either Windows or Linux+macOS <a href="https://realpython.com/ref/tools/pipx/">here</a>.</p>
+<ul>
+  <p>To install the package type this command in the terminal:</p>
+  <p><em>pipx install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
+  <p>You can find all the information you need on how to install <em>pipx</em> for either Windows or Linux+macOS <a href="https://realpython.com/ref/tools/pipx/">here</a>.</p>
+</ul>
 
 ### Commands for playing / testing the games:
 <ul>
