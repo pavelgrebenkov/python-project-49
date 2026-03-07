@@ -6,24 +6,25 @@
 [![SonarQube check](https://sonarcloud.io/api/project_badges/measure?project=pavelgrebenkov_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=pavelgrebenkov_python-project-49)
 
 ### Note on branching:
-<p>- This is the second branch of the project - <strong>refactor/project-restructure</strong> - built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
-<p>- The <strong>main</strong> branch is built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
-<p>- Except for this difference, the two applications are completely identical</p>
-
+<ul>
+  <li>This is the second branch of the project - <strong>refactor/project-restructure</strong> - built with <a href=https://docs.astral.sh/uv/">uv</a>.</li>
+  <li>The <strong>main</strong> branch is built with <a href="https://python-poetry.org/docs/">Poetry</a>.</li>
+  <li>Except for this difference, the two applications are pretty much identical</li>
+</ul>
 ### This package contains five simple math games:
-<ol>
+<ul>
   <li>Brain Even - odd-even number game</li>
   <li>Brain Calc - basic arithmetic game</li>
   <li>Brain GCD - greatest common divisor game</li>
   <li>Brain Progression - math sequence completion game</li>
   <li>Brain Prime - prime number game</li>
-</ol>
+</ul>
 
 ### Description:
 <p>
-This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school.<br> 
+This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school.
 The learning objectives of the project empahsised the following skills and knowledge areas:
-<p>
+</p>
 <ul>
   <li>Software development environment setup</li>
   <li>Building correct package file structure</li>
@@ -41,9 +42,11 @@ The learning objectives of the project empahsised the following skills and knowl
 <p>Minimal requirements for installing the package is <a href="https://www.python.org/downloads/">Python 3.x</a> and <a href=https://docs.astral.sh/uv/">uv</a>.</p>
 
 ### Installation:
-<p>To install the package type this command int the terminal:</p>
-<p><em>uv tool install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></p>
-<p>You can find all the information you need on how to install <em>uv<p><a href="https://docs.astral.sh/uv/getting-started/installation/">here</a>.</p>
+<ul>
+  <li>To install the package type this command in the terminal:</li>
+  <li><em>uv tool install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></li>
+  <li>You can find all the information you need on how to install <em>uv<p><a href="https://docs.astral.sh/uv/getting-started/installation/">here</a>.</li>
+</ul>
 
 ### Commands for launching the games:
 <ul>
