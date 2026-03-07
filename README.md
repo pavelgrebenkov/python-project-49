@@ -46,7 +46,7 @@ The learning objectives of the project empahsised the following skills and knowl
 <ul>
   <li>To install the package type this command in the terminal:</li>
   <li><em>uv tool install git+<span>https://</span>github.com/pavelgrebenkov/python-project-49.git</em></li>
-  <li>You can find all the information you need on how to install <em>uv</em><a href="https://docs.astral.sh/uv/getting-started/installation/">here</a>.</li>
+  <li>You can find all the information you need on how to install <em>uv</em><a href="https://docs.astral.sh/uv/getting-started/installation/"> here</a>.</li>
 </ul>
 
 ### Commands for launching the games:
