@@ -5,9 +5,11 @@
 [![Qlty check](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49/maintainability.svg)](https://qlty.sh/gh/pavelgrebenkov/projects/python-project-49)
 
 ### Note on branching:
-<p>- This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
-<p>- The second branch - <strong>refactor/project-restructure</strong> - is built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
-<p>- Except for this difference, the two applications are completely identical</p>
+<ul>
+  <p>This is the <strong>main</strong> branch of the project built with <a href="https://python-poetry.org/docs/">Poetry</a>.</p>
+  <p>The second branch - <strong>refactor/project-restructure</strong> - is built with <a href=https://docs.astral.sh/uv/">uv</a>.</p>
+  <p>Except for this difference, the two applications are pretty much identical</p>
+<ul>
 
 ### This package contains five simple math games:
 <ol>
@@ -19,7 +21,10 @@
 </ol>
 
 ### Description:
-<p>This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. The learning objectives of the project empahsised the following skills and knowledge areas:<p>
+<p>
+This package was built as a requirement for the first academic module of the professional program, <em>Python Developer</em>, offered by <a href="https://ru.hexlet.io/" >Hexlet</a>, an online programming school. 
+The learning objectives of the project empahsised the following skills and knowledge areas:
+<p>
 <ul>
   <li>Software development environment setup</li>
   <li>Building correct package file structure</li>
@@ -51,13 +56,13 @@
 </ul>
 <p><strong>NOTE:</strong> All the commands for this application can be found in <a href="https://github.com/pavelgrebenkov/python-project-49/blob/main/Makefile">Makefile</a>.</p>
 
-### Video demonstrations
-<p>To see how to install and uninstall the application and how to launch and play the games, watch the demo videos below.</p>
+### Video demonstrations:
+<p>To see how to install and uninstall the application, and how to launch and play the games, watch the demo videos below.</p>
 <ul>
   <li><a href="" target="_blank">Installation/Uninstallation</a></li>
-  <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain even</a></li>
-  <li><a href="https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0" target="_blank">Brain calc</a></li>
-  <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain gcd</a></li>
-  <li><a href="https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs" target="_blank">Brain progression</a></li>
-  <li><a href="https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH" target="_blank">Brain prime</a></li>
+  <li><a href="https://asciinema.org/a/1lROWAoSa9nSpzOJXy7rOuKwT" target="_blank">Brain Even</a></li>
+  <li><a href="https://asciinema.org/a/ANP0NI7rER6PdI7vqWnTkGeg0" target="_blank">Brain Calc</a></li>
+  <li><a href="https://asciinema.org/a/WtsedU38bsu44rBjqNshXxmhq" target="_blank">Brain GCD</a></li>
+  <li><a href="https://asciinema.org/a/TCiqduHQCk9ZRaad12QtfxnVs" target="_blank">Brain Progression</a></li>
+  <li><a href="https://asciinema.org/a/XXESays16JYbHfa8Alon9dCPH" target="_blank">Brain Prime</a></li>
 </ul>
