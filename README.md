@@ -44,6 +44,7 @@ The learning objectives of the project emphasised the following skills and knowl
   <li><a href="https://www.python.org/downloads/">Python 3.10</a> or higher</li>
   <li><a href=https://docs.astral.sh/uv/">uv</a></li>
 </ul>
+
 ### Installation:
 <ul>
   <li>To install the package type this command in the terminal:</li>
